@@ -21,6 +21,13 @@ public class Warrior extends Weapons {
         this.shieldStrength = 100;
     }
 
+    public int getShieldStrength() {
+        return shieldStrength;
+    }
+
+    public void setShieldStrength(int shieldStrength) {
+        this.shieldStrength = shieldStrength;
+    }
 
     @Override
     public int attackAnotherCharacter() {

@@ -21,6 +21,14 @@ public class Constable extends Weapons {
 
     }
 
+    public String getJurisdiction() {
+        return jurisdiction;
+    }
+
+    public void setJurisdiction(String jurisdiction) {
+        this.jurisdiction = jurisdiction;
+    }
+
     @Override
     public boolean arrestAnotherCharacter() {
         return super.arrestAnotherCharacter();

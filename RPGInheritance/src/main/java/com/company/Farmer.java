@@ -24,6 +24,22 @@ public class Farmer extends Weapons {
 
     }
 
+    public boolean isPlowing() {
+        return plowing;
+    }
+
+    public void setPlowing(boolean plowing) {
+        this.plowing = plowing;
+    }
+
+    public boolean isHarvesting() {
+        return harvesting;
+    }
+
+    public void setHarvesting(boolean harvesting) {
+        this.harvesting = harvesting;
+    }
+
     @Override
     public int attackAnotherCharacter() {
         return super.attackAnotherCharacter();
