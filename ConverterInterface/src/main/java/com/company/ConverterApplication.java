@@ -8,8 +8,13 @@ public class ConverterApplication {
 
         Converter  userConvert = new ConverterSwitch();
 
-        System.out.println("Create a string for the day of the week using " + convert1.convertMonth(5));
+        System.out.println( convert1.convertMonth(5));
+
         System.out.println(convert1.convertDay(3));
+
+        System.out.println(userConvert.convertMonth(8));
+
+        System.out.println(userConvert.convertDay(1));
     }
 
 
